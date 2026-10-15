@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Nasarawa State University, Keffi</title>
+  <meta name="description" content="Contact Nasarawa State University, Keffi: address, email and a message form." />
+  <meta name="theme-color" content="#075E3B" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body class="bg-white">
+  <a href="#main" class="sr-only z-[60] bg-white px-4 py-3 font-semibold text-nsuk-700 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to content</a>
+
+  <header class="border-b border-line/60 bg-white">
+    <div class="wrap flex h-[82px] items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2" aria-label="NSUK home">
+        <img src="img/logo.png" alt="" width="48" height="48" class="h-[48px] w-[48px] object-contain" />
+        <span class="text-[24px] font-bold leading-none tracking-tightish">NSUK.</span>
+      </a>
+      <nav class="hidden items-center gap-[52px] lg:flex" aria-label="Primary">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#campus" class="nav-link">Campus</a>
+        <a href="index.html#programmes" class="nav-link">Programmes</a>
+        <a href="index.html#news" class="nav-link">Pages</a>
+        <a href="contact.html" class="nav-link text-nsuk-700" aria-current="page">Contact</a>
+      </nav>
+      <a href="index.html" class="btn-outline whitespace-nowrap">Back to homepage</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="bg-nsuk-50 py-[88px]">
+      <div class="wrap">
+        <span class="eyebrow text-[12px]">Get in touch</span>
+        <h1 class="mt-5 text-[34px] leading-[1.25] sm:text-[48px] sm:leading-[56px]">We would like to <span class="accent">hear</span> from you</h1>
+        <p class="mt-5 max-w-[560px] text-ink/70">Questions about admissions, programmes or the campus? Send a message and the right office will respond.</p>
+      </div>
+    </section>
+
+    <section class="py-[88px]">
+      <div class="wrap grid gap-14 lg:grid-cols-[1fr_420px] lg:gap-[88px]">
+        <form id="contact-form" class="grid gap-6" novalidate>
+          <div class="grid gap-6 sm:grid-cols-2">
+            <label class="grid gap-2 text-[14px] font-semibold">Full name
+              <input name="name" required maxlength="100" autocomplete="name" class="h-[52px] border border-line bg-white px-4 text-[15px] font-normal focus:border-nsuk-700 focus:outline-none" />
+            </label>
+            <label class="grid gap-2 text-[14px] font-semibold">Email address
+              <input name="email" type="email" required maxlength="254" autocomplete="email" class="h-[52px] border border-line bg-white px-4 text-[15px] font-normal focus:border-nsuk-700 focus:outline-none" />
+            </label>
+          </div>
+          <label class="grid gap-2 text-[14px] font-semibold">Subject
+            <select name="subject" class="h-[52px] border border-line bg-white px-4 text-[15px] font-normal focus:border-nsuk-700 focus:outline-none">
+              <option>Admissions</option>
+              <option>Programmes</option>
+              <option>Research and partnerships</option>
+              <option>Media and press</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label class="grid gap-2 text-[14px] font-semibold">Message
+            <textarea name="message" required rows="6" maxlength="2000" class="border border-line bg-white p-4 text-[15px] font-normal focus:border-nsuk-700 focus:outline-none"></textarea>
+          </label>
+          <!-- honeypot: real visitors never fill this -->
+          <input type="text" name="website" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+          <div>
+            <button type="submit" class="btn-solid">Send message <svg class="h-3.5 w-3.5"><use href="#i-arrow" /></svg></button>
+            <p id="contact-status" class="mt-4 min-h-[24px] text-[15px]" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <aside class="grid content-start gap-8 border border-line p-8" aria-label="Contact details">
+          <div class="flex gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-nsuk-700"><use href="#i-pin" /></svg>
+            <div><p class="font-semibold">Address</p><p class="mt-1 text-ink/70">P.M.B 1022, Along Keffi&ndash;Akwanga Road, Keffi, Nasarawa State</p>
+              <a href="https://www.google.com/maps/search/?api=1&query=Nasarawa+State+University+Keffi" target="_blank" rel="noopener" class="mt-2 inline-block text-[14px] font-semibold text-nsuk-700 underline underline-offset-4">Open in Google Maps &nearr;</a></div>
+          </div>
+          <div class="flex gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-nsuk-700"><use href="#i-phone" /></svg>
+            <div><p class="font-semibold">Phone</p><a href="tel:+2348001233456" class="mt-1 block text-ink/70 hover:text-nsuk-700">+234 800 123 3456</a></div>
+          </div>
+          <div class="flex gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-nsuk-700"><use href="#i-mail" /></svg>
+            <div class="grid gap-4">
+              <div><p class="font-semibold">General enquiries</p><a href="mailto:info@nsuk.edu.ng" class="mt-1 block text-ink/70 hover:text-nsuk-700">info@nsuk.edu.ng</a></div>
+              <div><p class="font-semibold">Support</p><a href="mailto:support@nsuk.edu.ng" class="mt-1 block text-ink/70 hover:text-nsuk-700">support@nsuk.edu.ng</a></div>
+              <div><p class="font-semibold">IPO</p><a href="mailto:ipo@nsuk.edu.ng" class="mt-1 block text-ink/70 hover:text-nsuk-700">ipo@nsuk.edu.ng</a></div>
+            </div>
+          </div>
+          <div class="flex gap-4 border-t border-line pt-8">
+            <div><p class="font-semibold">Follow NSUK</p>
+              <p class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-[14px] font-semibold text-nsuk-700">
+                <a class="underline underline-offset-4" href="https://www.facebook.com/nasarawastateuniversity/" target="_blank" rel="noopener">Facebook</a>
+                <a class="underline underline-offset-4" href="https://x.com/OfficialNSUK" target="_blank" rel="noopener">X</a>
+                <a class="underline underline-offset-4" href="https://www.instagram.com/officialnsuk/" target="_blank" rel="noopener">Instagram</a>
+              </p></div>
+          </div>
+          <div class="border-t border-line pt-8" data-soon="Office hours and phone coming soon"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-nsuk-700 py-6 text-center text-[14px] text-white/85">
+    &copy; <span id="year">2026</span> Nasarawa State University, Keffi &middot; Knowledge for development
+  </footer>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="hidden" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 20 20"><path d="M3 5h14v10H3zM3 5l7 6 7-6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 20 20"><path d="M4 3h3l1.5 4-2 1.2a9 9 0 004.3 4.3L12 10.5l4 1.5v3a2 2 0 01-2 2A12 12 0 012 5a2 2 0 012-2z" fill="currentColor"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 20 20"><path d="M10 18s6-5.5 6-10a6 6 0 10-12 0c0 4.5 6 10 6 10zm0-7.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="currentColor"/></symbol>
+  </svg>
+</body>
+</html>

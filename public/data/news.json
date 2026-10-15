@@ -1,0 +1,26 @@
+[
+  {
+    "day": "11", "month": "Apr",
+    "title": "NSUK holds 8th combined convocation and 25th anniversary",
+    "summary": "Over 25,000 graduates from three academic sessions were presented, including 82 first-class degrees, the Vice-Chancellor said at a press briefing.",
+    "source": "Arise News",
+    "url": "https://www.arise.tv/nasarawa-varsity-produces-82-first-class-graduates/",
+    "image": "img/news-1.jpg"
+  },
+  {
+    "day": "16", "month": "Mar",
+    "title": "Partnership to train students in furniture making",
+    "summary": "An MoU with Prince Interior Vocational Institute gives students hands-on training in furniture making, interior product design and business skills.",
+    "source": "News Agency of Nigeria",
+    "url": "https://nannews.ng/nasarawa-varsity-partners-vocational-institute-to-train-500-furniture-artisans/",
+    "image": "img/news-2.jpg"
+  },
+  {
+    "day": "NSUK", "month": "News",
+    "title": "One Degree, One Trade, One Enterprise initiative unveiled",
+    "summary": "The university introduces an initiative aimed at transforming graduate development through skills and enterprise.",
+    "source": "MySchoolNews",
+    "url": "https://myschoolnews.ng/nasarawa-state-university-unveils-one-degree-one-trade-one-enterprise-initiative-to-transform-graduate-development-57877",
+    "image": "img/news-3.jpg"
+  }
+]
